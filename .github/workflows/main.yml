@@ -12,7 +12,6 @@ import logging
 app = Flask(__name__)
 
 @app.route('/')
-def home():
     return "Bot is alive!"
 
 @app.route('/health')
